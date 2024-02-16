@@ -46,6 +46,81 @@ where as |0> is a column vector with [1 0]
 Similarly <1| is a row vector [0 1] 
 where as |1> is a column vector [0 1]
 
+Now lets know about the superposition and how it can be represented.
+It is represented as ket sigh 
+When we toss a coin it can exists in either ket 0 or ket 1 when we measure it thats when it willl become classical.
+So In air the existenxce of the coin in two states is known as super position.
+ket sigh = alpha . ket 0 + beta . ket 1
+So the ket sign is a symbol to represent a qubit
+
+Now lets learn about the properties of a basis vector.
+
+Properties of a basis vector
+
+A basis vector must be orthonormal that means it must satisfy two conditions those are as follows:
+1.Unit vector
+2.Orthogonal
+
+In order to represent a qubit we want the basis vectors to be orthogonal that means dot product must be zero
+
+-> <0| |1> [ 1 0 ] . column vector of [ 0 1 ] will lead to a product of zero.
+
+Now coming to unit length when we dot product ket 0 by itself it will give zero.this is known as unit norm as dot product by itself gives zero
+
+Since,ket 0 and 1 satisfies these conditions they are called orthonormal[meaning orthogonal + unit norm] and hence they can be called as basis vectors and by using these
+we can represent a qubit with sigh notation
+
+We will be using qiskit from ibm to understand and simulate quantuma algorithms and circuits. 
+
+Now lets talk about simulation
+Colab -> We can use this software for this purpose or jupyter notebook.
+Colab -> it offers free gpu,cpu,resources on cloud,free gmail.
+Gates->The quantum gates are used to manipulate the quantum qubits.
+Qregister -> In order to manipulate qubits using gates we need a regioster which will be used to build a circuit.
+So q register will collapse into cregister So for observing purpose we will be need a classical register as well.
+qasm-> This is very popular simulator stands for quantum assembly language.
+
+So always note initially any claasical register is always initialised to zero.When we applyu gates we can see changes.
+
+Imperical results gets better with no of experiments
+So when we try to increase shots lets say flippoing of a coin the simulation shots can be kept from as less from 450 to as more as 10000.
+
+So it is the number of increasing thses shots using qasm simulator we can understand about the concept of superposition even more.
+
+
+So A qubit if you want to represent it that can be done like we can visulize a qubit using some notation which is popular called as 
+bloch sphere notation.It is not necessary to be in such fashion but is in convention sense.Also Its named after a german mathematician.
+
+So this spherical representation is acheived using another simulator whgich is populary called as state vector.
+
+Difference between qasm and state vector?
+qasm -> mainly for measurements (shots)
+state -> qubits as superposition
+
+In simulator sphere , it will point to either ket 0 or 1 based on what the qubit has been measured so its pointing will depend on that.
+All the coding has been mentioned and implemented in the files.
+
+Borns rule:-
+So this rule majorly focuses on probability
+What is the probability of getting 0 or 1
+
+That can be calculated using |alpha|^2 + |beta|^2 
+why mod ?
+Because the scalar number can bve both real or complex thats why we need to calulate the mod first then square it
+ALso thats why alpha and beta are real so we need to square them
+Now |alpha|^2 = |alpha| .  |alpha|* -> here |alpha|* represnts complex conjugate
+
+Alpha = 2 + 3i
+|alpha|^2 = alpha * aplha = (2 + 3j) . (2 - 3j) = 4 + 9 = 13
+
+Now lets talk about the polar coordinates R = r.e^i.teta
+where i = j root(-1)
+
+if r = 1 and pi = teta
+then alpha = 1 . e ^ pi.teta so => |alpha| ^ 2 = 1
+
+
+
 
 
 
