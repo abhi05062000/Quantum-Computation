@@ -1,0 +1,59 @@
+Quantum Computing is a very fascinating field.
+Starting from Advance Calculation to Time Travel Everything is possible.
+
+We know about classical bits such as 0 and 1.The same way in quantum terminology it is Qubits.
+A qubit can be both 0 or 1 This is known as superposition.
+A Quantum Computer is isolated and kept in a cold environment in order for the particles to be coherent.
+
+Mathematics is the language of physics.The quantum mechanics forms the basis for quantum computing.
+So to undertand quantum computing much better one should have a good sounding knowledge of linear algebra.
+
+Vector's are the fundamental building blocks of linear algebra.
+
+So let us start with a vector.
+
+What Exactly is a vector?
+
+A Vector Definiton can be defined in 3 ways
+1.Physicist way:- A vector is something which can sit anywhere in a  plane and it has a length and a direction.
+2.Computer Scientist:- A vector is a an ordered list of numbers. 
+3.Mathematician:- Addition of vectors and different vector algebra eg: V + w 
+
+Now In a 2-d plane lets say x and y .We have a vector R, so the rule is 
+any vector on a 2d plane can be represented in the form of a basis vector i.e.
+
+R = rx . x + ry . y
+where rx is the projection of r on x axis and ry is the projection of r on y axis.
+and x, y are unit vectors
+
+So in quantum computing orthogonal means projection which internally means dot product 
+
+Qunatum Mechanics is linear.So we can apply linear algebra
+
+So we got to know about projection of vector in a 2d plane and basis vectors.
+So,in classical computing 0,1 are basis vectors
+But,in quantum computing we represnt them using qubits and they have a special notation called as bra and ket.
+
+<0| -> This notation is known as bra
+
+|0> -> This notation is known as ket
+
+So,these terms come from the decomposition of brackets <a|b>
+
+<0| is a row vector [1 0]
+where as |0> is a column vector with [1 0]
+
+Similarly <1| is a row vector [0 1] 
+where as |1> is a column vector [0 1]
+
+
+
+
+
+
+
+
+
+
+
+
